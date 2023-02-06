@@ -34,17 +34,17 @@ document.addEventListener("keydown", (event) => {
 
 function startRound() {
   // starting a round of the game
-  const ball = document.querySelector(".ball");
+  let ball = document.querySelector(".ball");
   ball.style.left = "calc(50% - 15px)";
   ball.style.top = "calc(50% - 15px)";
 
   // Start moving the ball
-  let xDirection = 1;
-  let yDirection = 1;
+  let xDirection = 50;
+  let yDirection = 50;
   let xSpeed = 5;
   let ySpeed = 5;
   
-  const ballMovement = setInterval(() => {
+  let ballMovement = setInterval(() => {
     // Calculate new position
     let x = parseInt(ball.style.left);
     let y = parseInt(ball.style.top);
@@ -91,10 +91,10 @@ function startRound() {
 })
 
 function checkWin() {
-  if (playerOneScoreValue === 3) {
+  if (playerOneScoreValue === 5) {
     message.textContent = "Player One Wins!";
     gameOver = true;
-  } else if (playerTwoScoreValue === 3) {
+  } else if (playerTwoScoreValue === 5) {
     message.textContent = "Player Two Wins!";
     gameOver = true;
   } else {

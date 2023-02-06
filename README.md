@@ -24,10 +24,10 @@ https://thelukewest.wordpress.com/2016/09/30/planning-pseudocode-and-flow-charts
 
 The game should have the following 
 
-1. Must have two players 
-2. A win state
-3. A lose state 
-4. A way to keep playing if the game is not over 
-5. Multiple rounds to play - a round must begin, end, and there must be a way to check if the game should continue or the overall game is won or lost
+1. Must have two players so two paddles and a moving ball.
+2. Must use up and down arrows to move paddles to prvent the ball from getting hitting the wall.  
+2. The winner will be the first player who reaches 5 points.
+3. A loser will be the one who got their wall hit five times.
+5. Multiple rounds to play 
 
 Let the Game Begin!!! 
