@@ -1,8 +1,7 @@
-Ping Pong:
+Ping Pong Game
 
 Are YOU ready!!!!!!!!!!!!!!!!!
-
-![Ping Pong](https://gifs.com/gif/balls-of-fury-randy-dan-fogler-faces-the-dragon-la-na-shi-in-an-epic-table-tennis-match-Kzq7oD) 
+(https://gifs.com/gif/balls-of-fury-randy-dan-fogler-faces-the-dragon-la-na-shi-in-an-epic-table-tennis-match-Kzq7oD) 
 
 Building a Ping Pong Game 
 
