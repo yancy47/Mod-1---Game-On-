@@ -13,7 +13,7 @@
 // if ball collides with paddle bounce the ball until it hits the oppessing team's wall or your wall
 
 
-// select multiple elements 
+// select the classes 
 let playerOneScore = document.querySelector(".player-one-score");
 let playerTwoScore = document.querySelector(".player-two-score");
 let message = document.querySelector(".message");
