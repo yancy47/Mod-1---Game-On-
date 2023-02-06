@@ -1,26 +1,34 @@
 Ping Pong:
 
-Must have two Classes and one instance of each class
+Are YOU ready!!!!!!!!!!!!!!!!!
 
-Example: make a Dog Class and create a Dog named Sam
-Example: make a Person Class and create a Person named John
-Story must be controlled by buttons
-Must use Flexbox
-Must have a reset button
-If you build a you Game must have:
-Must be a two player game (either against the computer or against another player)
-- Example: Blackjack: A player plays against the dealer. The dealer is the computer - Example: Connect Four: Two players pass the game between themselves to take turns
+(https://gifs.com/gif/balls-of-fury-randy-dan-fogler-faces-the-dragon-la-na-shi-in-an-epic-table-tennis-match-Kzq7oD) 
 
-A win state - a way for the player to win the game
+Building a Ping Pong Game 
 
-High score can be considered a win state
+Where to begin?
 
-A lose state - a way for the player to lose the game
+1. First create your index.html, styles.css and app.js under the same folder using your GitBash terminal. Keep in mind the following commands 
+mkidir: creates folder 
+touch: creates file 
+cd: change directory 
 
-Example: Blackjack - a player must be able to lose all of their money with losing hands and cannot play if their bankroll is at 0
-Example: Connect Four - the other player has won or there are no possible plays left
+2. Once the files are created in the terminal use the following command (code .) to open the newly created folder with files it should open with VS code if installed.
 
-A way to keep playing if the game is not over
+3. Add boilerplate to index.html and use a script tag to link app.js also use a link tag to link style.css
 
-Multiple rounds to play - a round must begin, end, and there must be a way to check if the game should continue or the overall game is won or lost
-- Example: Blackjack: a player takes turns playing a hand versus a computer - the player's hand can either win, lose or tie the dealer. If the player has enough money in their bankroll they can keep playing. A player must be able to win several rounds and increase their bankroll - Example: Connect Four: two (non-computer) players take turns adding chips to the board. The game will check if a player won or if the board is full and there are no more plays possible. A player gets four chips in a row (vertically or horizontally)- one person wins, one loses, there are no further plays in this case
+4. Once all the above has been completed proceed to create pseudocode. Assure yourself you understand the logic of the game. Can use the following as a resource as a reference.
+
+https://thelukewest.wordpress.com/2016/09/30/planning-pseudocode-and-flow-charts/
+
+5. Once all the above has been completed pick up that paddle! You're now ready to build this Ping Pong Game!  
+
+The game should have the following 
+
+1. Must have two players 
+2. A win state
+3. A lose state 
+4. A way to keep playing if the game is not over 
+5. Multiple rounds to play - a round must begin, end, and there must be a way to check if the game should continue or the overall game is won or lost
+
+Let the Game Begin!!! 
